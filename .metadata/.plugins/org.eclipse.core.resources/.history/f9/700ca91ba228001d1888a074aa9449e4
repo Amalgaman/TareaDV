@@ -1,0 +1,13 @@
+package supermercado;
+
+public class Entrada extends Sector{
+
+	public int id;
+	
+	public Entrada(int cantidad, int capacidad) {
+		super(cantidad, capacidad);
+		
+	}
+
+	
+}

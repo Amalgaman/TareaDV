@@ -1,0 +1,13 @@
+package supermercado;
+
+public class Gondola extends Sector{
+
+	public int id;
+	
+	public Gondola(int cantidad, int capacidad) {
+		super(cantidad, capacidad);
+		
+	}
+
+	
+}
