@@ -1,8 +1,9 @@
 package supermercado;
 
-public abstract class Sector {
+public class Sector {
 
 	private int id;
+	private String nombre;
 	
 	public int getId() {
 		return id;
@@ -12,8 +13,17 @@ public abstract class Sector {
 		this.id = id;
 	}
 
-	public Sector(int id) {
+	public Sector(int id,String nombre) {
 		this.id=id;
+		this.nombre=nombre;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	
 	
